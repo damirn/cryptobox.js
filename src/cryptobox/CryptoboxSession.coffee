@@ -16,7 +16,7 @@
 # along with this program. If not, see http://www.gnu.org/licenses/.
 #
 
-Proteus = require 'proteus'
+Proteus = require 'wire-webapp-proteus'
 
 module.exports = class CryptoboxSession
   ###
