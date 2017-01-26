@@ -98,7 +98,7 @@ module.exports = class Cryptobox
           resolve null
 
         pk_store = new ReadOnlyStore @store
-        resolve new cryptobox.CryptoboxSession session_id, pk_store, session
+        resolve new CryptoboxSession session_id, pk_store, session
 
   session_save: (session) ->
     return new Promise (resolve, reject) =>
